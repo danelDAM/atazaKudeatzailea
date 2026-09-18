@@ -6,7 +6,20 @@
         xmlns:local="clr-namespace:_8.ariketa"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="-33,3,33,-3">
+        <Label Content="Orain" HorizontalAlignment="Left" Height="34" Margin="110,70,0,0" VerticalAlignment="Top" Width="66"/>
+        <Label Content="Datuen aldea" HorizontalAlignment="Left" Height="34" Margin="110,302,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label Content="Datuen batura" HorizontalAlignment="Left" Height="34" Margin="110,241,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label Content="Gaurko ordua" HorizontalAlignment="Left" Height="34" Margin="110,183,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label Content="Gaur" HorizontalAlignment="Left" Height="34" Margin="110,130,0,0" VerticalAlignment="Top" Width="66"/>
+        <TextBlock x:Name="orainTB" HorizontalAlignment="Left" Height="34" Margin="210,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="537"/>
+        <TextBlock x:Name="aldeaTB" HorizontalAlignment="Left" Height="34" Margin="210,306,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="537"/>
+        <TextBlock x:Name="baturaTB" HorizontalAlignment="Left" Height="34" Margin="210,241,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="537"/>
+        <TextBlock x:Name="orduaTB" HorizontalAlignment="Left" Height="34" Margin="210,183,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="537"/>
+        <TextBlock x:Name="gaurTB" HorizontalAlignment="Left" Height="34" Margin="214,130,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="540"/>
+        <Button Content="Exekutatu" HorizontalAlignment="Left" Height="27" Margin="302,376,0,0" VerticalAlignment="Top" Width="78" Click="exekutatu"/>
+        <Button Content="Irten" HorizontalAlignment="Left" Height="27" Margin="545,376,0,0" VerticalAlignment="Top" Width="78" Click="irten"/>
+        <Button Content="Garbitu" HorizontalAlignment="Left" Height="27" Margin="420,376,0,0" VerticalAlignment="Top" Width="78" Click="garbitu"/>
 
     </Grid>
 </Window>
